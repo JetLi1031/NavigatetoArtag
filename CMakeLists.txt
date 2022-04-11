@@ -41,7 +41,7 @@ install(TARGETS
 
 
 install(
-  DIRECTORY src scripts
+  DIRECTORY src scripts launch config
   DESTINATION share/${PROJECT_NAME}
 )
 
