@@ -180,7 +180,7 @@ float get_heading_error(){
 
 // to alignemnt with (in priority) distancetogoal -> headingerr -> lastly, yawgoal err
 void alignment (){
-    //RCLCPP_INFO(this->get_logger(),"Aligning !!!!!!!!!!!!!!!!!!!!!!!!!");
+    //RCLCPP_INFO(this->get_logger(),"Aligning !!");
     float distance_to_goal = getdisToGoal();
     RCLCPP_INFO(this->get_logger(),"Distance to Goal : %f",distance_to_goal);
     float heading_err    = get_heading_error();
